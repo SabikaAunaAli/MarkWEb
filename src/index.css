@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sec1-bg{
+  background-image: url("https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg");
+  background-size: cover; 
+  background-position: center;
+  /* background-attachment: local; */
+} 
+.slider-bg{
+
+  background-image: url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-courses-section-bg.svg');
+
+
+  /* background-image: url("https://img.freepik.com/premium-vector/white-background-gradient-abstract-design-modern_343694-3049.jpg"); */
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+   
+} 
+
+
+.slick-slide > div {
+  margin: 0 22px;
+  padding-bottom: 40px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.slick-dots li.slick-active button:before {
+  color:orange !important;
+  z-index: 5!important;
 }
+
+
+.sub-bg{
+
+  background-image: url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-cta-section-bg.svg');
+
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+   
+} 
+
+
