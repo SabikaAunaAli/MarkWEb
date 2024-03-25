@@ -2,18 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.sec1-bg{
-  background-image: url("https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg");
-  background-size: cover; 
-  background-position: center;
-  /* background-attachment: local; */
-} 
+body{
+  overflow-x: hidden!important;
+}
+
+
+
 .slider-bg{
 
   background-image: url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-courses-section-bg.svg');
-
-
-  /* background-image: url("https://img.freepik.com/premium-vector/white-background-gradient-abstract-design-modern_343694-3049.jpg"); */
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center; 
@@ -36,8 +33,6 @@
 .sub-bg{
 
   background-image: url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-cta-section-bg.svg');
-
-
   background-size: cover;
   background-repeat: no-repeat;
   

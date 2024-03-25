@@ -30,7 +30,7 @@ function MySlider() {
 
 
   return (
-<div className="slider-bg relative">
+<div className="slider-bg relative container m-auto">
   <div>
     <img className="absolute right-11 md:right-52" src={dotbg} alt="dots" />
   </div>

@@ -9,7 +9,7 @@ const Review = () => {
  <div className='w-full pt-6 px-2'>
       <div className='max-w-[1240px] mx-auto py-16 grid md:grid-cols-2'>
         
-        <img className='w-[450px] my-4 mx-auto md:w-[500px]' src={student} alt='/' />
+        <img className='w- my-4 mx-auto md:w-[500px]' src={student} alt='/' />
 
 
 

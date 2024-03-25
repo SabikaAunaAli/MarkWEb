@@ -5,16 +5,16 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div>
-    <div className=' md:py-16 px-2 md:h-[800px] lg:h-[900px] h-[850px] '>
+    <div className=''>
+    <div className=' md:py-16 md:h-[800px] lg:h-[900px] h-[850px] '>
     <div className="bg-[url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg')] w-full md:h-[800px] lg:h-[850px] h-[750px] bg-cover md:bg-center bg-right absolute top-0">
 
-      <div className='max-w-[1240px] mx-auto py-8 md:py-16 grid md:grid-cols-2 lg:mt-44 mt-20'>
+      <div className='max-w-[1240px] mx-auto py-8 md:py-16 grid md:grid-cols-2 lg:mt-44 mt-20 overflow-x-hidden'>
         
         {/* <img className='w-[500px] mx-auto my-4' src={Laptop} alt='/' /> */}
 
         <div className='flex flex-col justify-center gap-5 mx-6'>
-        <div className='flex align-middle justify-self-start'>
+        <div className='flex align-middle '>
        <p className='pr-3 text-yellow-500 text-2xl'>< GoDotFill /> </p>
           <p className='text-white font-semibold'> ON-DEMAND COURSE</p>
           </div>
@@ -38,9 +38,10 @@ const Hero = () => {
         </div>
         </div>
 
-        <img className='w-[400px] lg:w-[550px] mx-auto my-4 rounded-2xl drop-shadow-md' src={Laptop} alt='/' />
+        <img className=' overflow-x-hidden  w-[350px] lg:w-[550px] mx-auto my-4 rounded-2xl drop-shadow-md' src={Laptop} alt='/' />
        
-      </div>
+      </div> 
+
       </div>
     </div>
     </div>
