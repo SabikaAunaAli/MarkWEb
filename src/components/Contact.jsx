@@ -38,20 +38,20 @@ export default function Contact() {
   return (
     <>
     
-      <div className='max-w-[1240px] lg:h-[1200px] md:h-[1100px] h-[1820px]  '>          
+      <div className='max-w-[1240px] lg:h-[1200px] md:h-[1200px] h-[1950px]  '>          
        <div 
-        className="bg-[url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg')] w-full md:h-[800px] lg:h-[750px] h-[1150px] bg-cover md:bg-center bg-right absolute top-0 left-0">
+        className="bg-[url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg')] w-full md:h-[800px] lg:h-[750px] h-[1500px] bg-cover md:bg-center bg-right absolute top-0 left-0">
 
 
       <div className="max-w-[1240px] m-auto">
-        <div className=" grid grid-cols-1 overflow-hidden sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 rounded-2xl shadow-2xl bg-white mt-40 w-[95%] m-auto z-[2] relative">
+        <div className=" grid grid-cols-1 overflow-hidden sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 rounded-b-2xl rounded-t-none shadow-2xl bg-white mt-28 w-[95%] m-auto z-[2] relative">
           <div className="bg-gradient-to-br to-[#f6f5f2e6] from-[#ffffffe3] overflow-hidden ">
             <p className="md:pt-20 pt-10 text-black font-bold  md:text-6xl text-3xl text-center md:text-left px-14 ">
             Contact Us
             </p>
-            <p className="ml-14 mt-5 text-lg text-gray-500 pr-10 ">
+            <p className="ml-14 mt-5 text-lg text-gray-500 pr-10 text-center md:text-left ">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id tempor, congue justo at, lobortis orci.
+              Consectetur sodales et, congue sem velit et facilisi metus ac, mattis quis est egestas.
             </p>
 
 
@@ -68,7 +68,7 @@ export default function Contact() {
                 <div className="md:ml-8 pt-4 md:pt-0">
                   <p className="text-sm font-bold text-gray-700">Address</p>
                   
-            <a className="block text-black font-bold md:text-lg text-lg mt-3"
+            <a className="block text-black font-bold md:text-lg text-[14] mt-3"
               href="tel:9-334-7565-9787">123 Fifth Avenue, NY 126004, New York, USA.</a>
 
                 </div>
@@ -76,15 +76,16 @@ export default function Contact() {
 
               </div>
 
-              <div className="flex flex-row flex-wrap  justify-items-center border-b-[1px] border-black py-6">
+              <div className="grid md:grid-cols-2 grid-cols-1 border-b-[1px] border-black py-6">
 
 
                 <div className="border-2 border-blue-500 rounded-full h-14 w-14 flex justify-items-center justify-center align-bottom  ">
                 <FaPhone  className="text-blue-500 text-xl mt-4 " />
 
                 </div>
+                
 
-                <div className="ml-8">
+                <div className="md:-ml-36 pt-6 md:pt-0 ">
                   <p className="text-sm font-bold text-gray-700">Call Us</p>
                   
             <a className="block text-black font-bold text-lg mt-3"
@@ -95,7 +96,7 @@ export default function Contact() {
 
               </div>
 
-              <div className="flex flex-row flex-wrap  justify-items-center border-b-[1px] border-black py-6">
+              <div className="grid md:grid-cols-2 grid-cols-1 border-b-[1px] border-black py-6">
 
 
                 <div className="border-2 border-blue-500 rounded-full h-14 w-14 flex justify-items-center justify-center align-bottom  ">
@@ -103,7 +104,7 @@ export default function Contact() {
 
                 </div>
 
-                <div className="ml-8">
+                <div className="md:-ml-36 pt-6 md:pt-0">
                   <p className="text-sm font-bold text-gray-700">Email Us</p>
                   
             <a className="block text-black font-bold text-lg mt-3"
@@ -225,7 +226,7 @@ export default function Contact() {
         </div>
 
 
-     <div className="container lg:-mt-36 -mt-28">
+     <div className="container lg:-mt-28 -mt-28">
  <div className="grid grid-cols-1 m-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
           
           <iframe
@@ -247,35 +248,8 @@ export default function Contact() {
 
 
 
-{/* <div className=" w-screen  max-w-screen-lg mx-auto">
-        <div className="w-screen -m-24">
-      <iframe
-       
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3473115.9060003995!2d-9.790797163012584!3d31.778265070846214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b88619651c58d%3A0xd9d39381c42cffc3!2sMorocco!5e0!3m2!1sen!2sma!4v1709282907766!5m2!1sen!2sma"
-        width="100%"
-        height="500"
-        style={{ border: 0 }}
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </div>
-    </div> */}
 
-        {/* <div className=" w-screen sm:w-full lg:w-full  bg-slate-400 relative -m-12 mb-5 -z-10  overflow-hidden">
-          <div className="">
-          <iframe
-            className=" "
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.0338910964488!2d-73.99362858890693!3d40.73927977127021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a3b24b424f%3A0x618680d3f8c2f773!2s123%205th%20Ave%2C%20New%20York%2C%20NY%2010003%2C%20USA!5e0!3m2!1sen!2s!4v1710419318730!5m2!1sen!2s"
-            width="90%"
-            height="500"
-            style={{ border: 1 }}
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          </div>
-        </div> */}
+
       </div>
       </div>
     </>
