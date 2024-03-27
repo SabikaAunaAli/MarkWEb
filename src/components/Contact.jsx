@@ -38,13 +38,13 @@ export default function Contact() {
   return (
     <>
     
-      <div className='max-w-[1240px] lg:h-[1200px] md:h-[1200px] h-[1950px]  '>          
+      <div className='lg:h-[1200px] md:h-[1200px] h-[1950px] sm:h-[1920px] relative  '>          
        <div 
-        className="bg-[url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg')] w-full md:h-[800px] lg:h-[750px] h-[1500px] bg-cover md:bg-center bg-right absolute top-0 left-0">
+        className="bg-[url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg')] w-full md:h-[800px] lg:h-[750px] h-[1500px] bg-cover sm:bg-right absolute top-0 left-0">
 
 
       <div className="max-w-[1240px] m-auto">
-        <div className=" grid grid-cols-1 overflow-hidden sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 rounded-b-2xl rounded-t-none shadow-2xl bg-white mt-28 w-[95%] m-auto z-[2] relative">
+        <div className=" grid grid-cols-1 overflow-hidden sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 rounded-b-2xl rounded-t-none shadow-2xl bg-white mt-28 w-[95%] m-auto z-[2] relative">
           <div className="bg-gradient-to-br to-[#f6f5f2e6] from-[#ffffffe3] overflow-hidden ">
             <p className="md:pt-20 pt-10 text-black font-bold  md:text-6xl text-3xl text-center md:text-left px-14 ">
             Contact Us
@@ -57,15 +57,17 @@ export default function Contact() {
 
             <div className="flex flex-col  mx-12 py-8">
 
-              <div className="flex flex-row flex-wrap justify-items-center border-b-[1px] border-black py-6">
+              <div className="grid md:grid-cols-2 grid-cols-1  border-b-[1px] border-black py-6">
 
 
-                <div className="border-2 border-blue-500 rounded-full h-14 w-14 flex justify-items-center justify-center align-bottom  ">
+<div className="border-2 border-blue-500 rounded-full h-14 w-14 flex justify-items-center justify-center align-bottom  ">
                 <FaLocationDot className="text-blue-500 text-xl mt-4 " />
 
                 </div>
 
-                <div className="md:ml-8 pt-4 md:pt-0">
+               
+
+                <div className=" md:-ml-36 pt-6 md:pt-0">
                   <p className="text-sm font-bold text-gray-700">Address</p>
                   
             <a className="block text-black font-bold md:text-lg text-[14] mt-3"
@@ -226,7 +228,7 @@ export default function Contact() {
         </div>
 
 
-     <div className="container lg:-mt-28 -mt-28">
+     <div className="container mx-auto lg:-mt-28 -mt-28">
  <div className="grid grid-cols-1 m-5 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
           
           <iframe

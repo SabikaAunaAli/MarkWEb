@@ -14,7 +14,7 @@ function MySlider() {
 
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1200,
       settings: {
         slidesToShow: 2,
       },
@@ -39,9 +39,9 @@ function MySlider() {
       <div className="mt-20 ">
       <Slider {...settings}>
         {data.map((d) => (
-          <div key={d.name} className="bg-white shadow-lg text-black rounded-xl grid md:grid-cols-3' mx-5 ">
+          <div key={d.name} className="bg-white shadow-lg text-black rounded-xl w-[70%] ">
            
-              <img className="rounded-xl" src={d.img} alt="pic"/>
+              <img className="rounded-xl w-[100%]" src={d.img} alt="pic"/>
             
             <div className="flex flex-col justify-center gap-4 p-4 m-3">
               <p className="text-sm font-bold">{d.course}</p>

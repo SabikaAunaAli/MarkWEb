@@ -29,11 +29,38 @@ const Navbar = () => {
       </div>
      <div  className=' justify-end hidden md:flex' >
       <ul className='flex '>
-      <Link to='/'> <li className='px-5 py-2 font-semibold text-xl hover:text-yellow-500'>Home</li></Link>
-        <Link to='/course'><li className='px-5 py-2 font-semibold text-xl hover:text-yellow-500'>All Courses</li></Link>
-        <Link to='/about'><li className='px-5 py-2 font-semibold text-xl hover:text-yellow-500'>About</li></Link>
-        <NavLink to='/contact'><li className='px-5 py-2 font-semibold text-xl hover:text-yellow-500'>Contact</li></NavLink>
-          
+
+      <NavLink
+  to="/"
+  className={({ isActive }) =>
+  isActive ? "text-yellow-500 font-bold" : ""
+}
+> <li className='px-5 py-2 font-semibold text-xl hover:text-yellow-500'>Home</li></NavLink>
+
+
+
+<NavLink
+  to="/course"
+  className={({ isActive }) =>
+  isActive ? "text-yellow-500 font-bold" : ""
+}
+><li className='px-5 py-2 font-semibold text-xl hover:text-yellow-500'>All Courses</li></NavLink>
+
+
+<NavLink
+  to="/about"
+  className={({ isActive }) =>
+  isActive ? "text-yellow-500 font-bold" : ""
+}
+><li className='px-5 py-2 font-semibold text-xl hover:text-yellow-500'>About</li></NavLink>
+        <NavLink
+  to="/contact"
+  className={({ isActive }) =>
+  isActive ? "text-yellow-500 font-bold" : ""
+}
+>
+<li className='px-5 py-2 font-semibold text-xl hover:text-yellow-500'>Contact</li>
+</NavLink>
         </ul>
            
           <Link to='/course'> <button type="button" class=" focus:outline-none text-white bg-yellow-400 hover:bg-white  hover:text-black focus:ring-4 text-lg font-semibold rounded-full py-2 px-5 ">Start Learning</button></Link> 

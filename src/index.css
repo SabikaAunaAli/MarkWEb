@@ -24,6 +24,16 @@ body{
 
 }
 
+
+.isActive{
+  color: brown;
+  
+}
+
+#sidebar a.active {
+  color: red;
+}
+
 .slick-dots li.slick-active button:before {
   color:orange !important;
   z-index: 5!important;
@@ -39,4 +49,7 @@ body{
    
 } 
 
+.element.style{
+  width: 60%!important;
+}
 

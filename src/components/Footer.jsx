@@ -29,10 +29,26 @@ const Footer = () => {
         <div className='text-left ml-12'>
           <h6 className='text-2xl font-bold text-white pb-7 '>Learning Path</h6>
           <ul>
-          <Link to='/course'><li className='pb-2 font-semibold text-lg  hover:text-yellow-500'>Web Development</li></Link>
-          <Link to='/course'> <li className='pb-2 font-semibold text-lg hover:text-yellow-500'>Mobile Development</li></Link>
-             <Link to='/course'> <li className='pb-2  font-semibold text-lg hover:text-yellow-500'>Machine Learning</li></Link>
-             <Link to='/course'> <li className='pb-2  font-semibold text-lg hover:text-yellow-500'>Data Science</li></Link>
+           <NavLink
+  to="/html"
+  className={({ isActive }) =>
+  isActive ? "text-yellow-500 font-bold" : ""
+}><li className='pb-2 font-semibold text-lg  hover:text-yellow-500'>Web Development</li></NavLink>
+           <NavLink
+  to="/fullstack"
+  className={({ isActive }) =>
+  isActive ? "text-yellow-500 font-bold" : ""
+}> <li className='pb-2 font-semibold text-lg hover:text-yellow-500'>Mobile Development</li></NavLink>
+              <NavLink
+  to="/python"
+  className={({ isActive }) =>
+  isActive ? "text-yellow-500 font-bold" : ""
+}> <li className='pb-2  font-semibold text-lg hover:text-yellow-500'>Machine Learning</li></NavLink>
+              <NavLink
+  to="/html"
+  className={({ isActive }) =>
+  isActive ? "text-yellow-500 font-bold" : ""
+}> <li className='pb-2  font-semibold text-lg hover:text-yellow-500'>Data Science</li></NavLink>
           </ul>
         </div>
         
