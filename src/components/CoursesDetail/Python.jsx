@@ -1,23 +1,25 @@
 import React from 'react'
 import { FaCheckCircle } from "react-icons/fa";
 import { FaRegCircle } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+
 
 
 const Python = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='mx-auto'>
         <div className='h-24 relative'>
       <div className="bg-[url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg')] w-full h-24 bg-cover md:bg-right-bottom bg-right absolute top-0">
         </div>
         </div>
      
-
+        <div className=' container mx-auto'>
      <div className=' flex justify-center md:mt-28 my-10'>
     <img className='md:w-[65%] w-[90%] ' src="https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-featured-image.jpg" alt="" />
       </div>
 
 
-<div className='container md:w-[65%] w-[90%] mx-auto my-5'>
+<div className='container  md:w-[65%] mx-auto my-5'>
 
 <p className='text-3xl font-normal'>Complete Python Masterclass for Web Development</p>
 <p className='text-3xl font-semibold py-4'>Course Description</p>
@@ -96,7 +98,7 @@ const Python = () => {
 
 <div className='flex align-middle justify-self-start border-2 border-gray-200 rounded-md p-4'>
        <p className='pl-3 py-1 text-gray-300 text-2xl font-bold'><FaRegCircle /> </p>
-       <a href="https://websitedemos.net/online-coding-course-02/lessons/install-and-setup/" className='px-4  text-xl font-normal text-gray-600  hover:text-blue-400'>Install and Setup</a>
+       <Link to="/install&setup" className='px-4  text-xl font-normal text-gray-600  hover:text-blue-400'>Install and Setup</Link>
         </div>
 
 
@@ -122,6 +124,7 @@ const Python = () => {
 
 
 
+</div>
 </div>
 
 

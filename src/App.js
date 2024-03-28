@@ -8,6 +8,7 @@ import ContactUs from './components/pages/ContactUs';
 import Python from './components/CoursesDetail/Python';
 import Html from './components/CoursesDetail/Html';
 import Fullstack from './components/CoursesDetail/Fullstack';
+import Install from './components/innerpages/py-lesson/Install';
 
 
 
@@ -21,6 +22,7 @@ function App() {
      <Route index element={<Home/>}/>
      <Route path='course' element={<Ourcourses/>}/>
      <Route path='python' element={<Python/>}/>
+     <Route path='install&setup' element={<Install/>}/>
      <Route path='html' element={<Html/>}/>
      <Route path='fullstack' element={<Fullstack/>}/>
      <Route path='about' element={<AboutUs/>}/>

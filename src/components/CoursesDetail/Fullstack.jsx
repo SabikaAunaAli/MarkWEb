@@ -4,13 +4,13 @@ import { FaRegCircle } from "react-icons/fa";
 
 const Fullstack = () => {
   return (
-    <div className='container mx-auto'>
+    <div className= 'mx-auto'>
     <div className='h-24 relative'>
   <div className="bg-[url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-hero-section-bg.svg')] w-full h-24 bg-cover md:bg-right-bottom bg-right absolute top-0">
     </div>
     </div>
  
-
+    <div className='container mx-auto'>
  <div className=' flex justify-center md:mt-28 my-10'>
 <img className='md:w-[65%] w-[90%] ' src="https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-coding-course-css-3-lesson-cover-img.jpg" alt="" />
   </div>
@@ -121,6 +121,7 @@ const Fullstack = () => {
 
 
 
+</div>
 </div>
 
 
