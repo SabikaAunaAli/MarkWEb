@@ -1,42 +1,46 @@
 import React from 'react'
 import { useState } from "react";
-import { FaCheckCircle } from "react-icons/fa";
 import { FaRegCircle } from "react-icons/fa";
-import control from "../../../assets/control.png";
+
+import Sidebar from '../../Sidebar';
 
 
 const Install = () => {
-    const [open, setOpen] = useState(true);
+  //   const [open, setOpen] = useState(true);
 
-    const handleToggle = () => {
-      setOpen(!open);
-    };
+  //   const handleToggle = () => {
+  //     setOpen(!open);
+  //   };
  
-  const Menus = [
-    { title: "Install and Setup", src: <FaRegCircle /> },
-    { title: "Python Basic", src: <FaRegCircle /> },
-    { title: "Python Advance", src: <FaRegCircle /> },
+  // const Menus = [
+  //   { title: "Install and Setup", src: <FaRegCircle /> },
+  //   { title: "Python Basic", src: <FaRegCircle /> },
+  //   { title: "Python Advance", src: <FaRegCircle /> },
 
-  ];
+  // ];
 
   return (
 
     <>
-
-        {/* <img
+    <div>
+<div className='container px-5 pt-8 border-b-[1px] border-black pb-5 '>
+        <img
             src="https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-logo-dark.svg"
-            className={`cursor-pointer duration-500 ${
-              open && "rotate-[360deg]"
-            }`}
-          /> */}
+            className={`cursor-pointer w-[10%] duration-50`}
+          />
+</div>
+</div>
+         
 
 
         <div className="flex ">
+          <Sidebar/>
 
 
 
         
-      <div
+      {/* <div
+
     className={` ${
         open ? "w-72" : "md:w-16 w-0 "
       } bg-white h-full pt-8 fixed duration-300 border-r-[1px] border-black`}
@@ -80,11 +84,13 @@ const Install = () => {
             </li>
           ))}
         </ul>
-      </div>
-      <div className={`flex-1 p-8 move ${open ? 'md:ml-56' : 'ml-1'}`}>
+      </div> */}
+
+      {/* <div className={`flex-1 p-8 move ${open ? 'md:ml-56' : 'ml-1'}`}> */}
+      <div className={`flex-1 p-8 lg:ml-20`}>
     
 
-    <div className=' container overflow-y-scroll mx-auto'>
+    <div className=' container  mx-auto'>
     <h1 className="text-6xl text-center font-bold ">Install and Setup</h1>
 
      <div className=' flex justify-center md:mt-10 my-10'>

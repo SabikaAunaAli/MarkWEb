@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink ,useLocation } from 'react-router-dom';
 
 import {
   FaDribbbleSquare,
@@ -11,6 +11,23 @@ import {
 } from 'react-icons/fa';
 
 const Footer = () => {
+
+
+
+
+  const location = useLocation();
+
+  // Define an array of paths where you want to hide the Footer
+  const hiddenFooterPaths = ['/install&setup', '/contact', '/about'];
+
+  // Check if the current path is in the hiddenFooterPaths array
+  const shouldHideFooter = hiddenFooterPaths.includes(location.pathname);
+
+  if (shouldHideFooter) {
+    // If the current path is in the hiddenFooterPaths array, return null
+    return null;
+  }
+
   return (
     <div className='bg-black'>
     <div className='max-w-[1240px] mx-auto pt-16 pb-10 flex justify-between flex-col  md:grid grid-cols-5 gap-6 text-white bg-black'>

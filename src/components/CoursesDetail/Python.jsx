@@ -19,7 +19,7 @@ const Python = () => {
       </div>
 
 
-<div className='container  md:w-[65%] mx-auto my-5'>
+<div className='container  md:w-[65%]  w-[90%] mx-auto my-5'>
 
 <p className='text-3xl font-normal'>Complete Python Masterclass for Web Development</p>
 <p className='text-3xl font-semibold py-4'>Course Description</p>

@@ -1,7 +1,8 @@
 
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink , useLocation } from 'react-router-dom';
+
 
 
 const Navbar = () => {
@@ -16,6 +17,21 @@ const Navbar = () => {
   const toggleMenu = () => {
     setToggle(!toggle);
   };
+
+
+
+  const location = useLocation();
+
+ 
+  const hiddenNavbarPaths = ['/install&setup', '/contact', '/about'];
+
+
+  const shouldHideNavbar = hiddenNavbarPaths.includes(location.pathname);
+
+  if (shouldHideNavbar) {
+    
+    return null;
+  }
 
   return (
 <>

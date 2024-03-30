@@ -22,11 +22,13 @@ function App() {
      <Route index element={<Home/>}/>
      <Route path='course' element={<Ourcourses/>}/>
      <Route path='python' element={<Python/>}/>
-     <Route path='install&setup' element={<Install/>}/>
+  
      <Route path='html' element={<Html/>}/>
      <Route path='fullstack' element={<Fullstack/>}/>
      <Route path='about' element={<AboutUs/>}/>
      <Route path='contact' element={<ContactUs/>}/>
+
+     <Route path='install&setup' element={<Install/>}/>
 
 
 
@@ -36,8 +38,9 @@ function App() {
 
 
      </Route>
-
       </Routes>
+
+    
      
      
     

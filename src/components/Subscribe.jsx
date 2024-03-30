@@ -1,6 +1,25 @@
 import React from 'react'
+import {useLocation } from 'react-router-dom';
+
 
 const Subscribe = () => {
+
+
+
+  const location = useLocation();
+
+  // Define an array of paths where you want to hide the Subscribe
+  const hiddenSubscribePaths = ['/install&setup', '/contact', '/about'];
+
+  // Check if the current path is in the hiddenSubscribePaths array
+  const shouldHideSubscribe = hiddenSubscribePaths.includes(location.pathname);
+
+  if (shouldHideSubscribe) {
+    // If the current path is in the hiddenSubscribePaths array, return null
+    return null;
+  }
+
+
   return (
 <div className='sub-bg  '>
 
