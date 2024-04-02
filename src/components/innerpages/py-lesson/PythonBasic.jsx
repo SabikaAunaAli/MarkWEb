@@ -12,7 +12,7 @@ const PythonBasic = () => {
 <div className='container  pt-8  pb-5 flex justify-between '>
         <img
             src="https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-logo-dark.svg"
-            className={`cursor-pointer md:w-[10%] duration-50 ml-5`}
+            className={`cursor-pointer md:w-[10%] duration-50 ml-5 md:block hidden`}
           />
           <div className='flex justify-between text-blue-500 hover:text-blue-400 hover:translate-x-2 mr-5 ease-in-out'>
 
