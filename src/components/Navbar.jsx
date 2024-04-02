@@ -23,7 +23,7 @@ const Navbar = () => {
   const location = useLocation();
 
  
-  const hiddenNavbarPaths = ['/install&setup', '/contact', '/about'];
+  const hiddenNavbarPaths = ['/install&setup', '/pythonAdv', '/pythonBasic'];
 
 
   const shouldHideNavbar = hiddenNavbarPaths.includes(location.pathname);
@@ -39,7 +39,7 @@ const Navbar = () => {
 
 <div className=' absolute overflow-x-hidden z-10 container m-auto'>
     <div className='flex justify-between items-center h-24 lg:max-w-[1240px]  mx-auto overflow-hidden bg-transparent text-white '>
-    <div className='flex justify-center  items-center ml-10'>
+    <div className='flex justify-center  items-center ml-10 md:ml-5'>
      <Link to='/'> <img src="https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-logo-light.svg" alt="" /></Link>
    
       </div>

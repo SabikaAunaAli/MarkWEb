@@ -9,7 +9,7 @@ const Subscribe = () => {
   const location = useLocation();
 
   // Define an array of paths where you want to hide the Subscribe
-  const hiddenSubscribePaths = ['/install&setup', '/contact', '/about'];
+  const hiddenSubscribePaths = ['/install&setup', '/pythonAdv', '/pythonBasic'];
 
   // Check if the current path is in the hiddenSubscribePaths array
   const shouldHideSubscribe = hiddenSubscribePaths.includes(location.pathname);

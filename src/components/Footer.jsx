@@ -18,7 +18,7 @@ const Footer = () => {
   const location = useLocation();
 
   // Define an array of paths where you want to hide the Footer
-  const hiddenFooterPaths = ['/install&setup', '/contact', '/about'];
+  const hiddenFooterPaths = ['/install&setup', '/pythonAdv', '/pythonBasic'];
 
   // Check if the current path is in the hiddenFooterPaths array
   const shouldHideFooter = hiddenFooterPaths.includes(location.pathname);

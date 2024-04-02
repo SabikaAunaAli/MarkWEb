@@ -104,13 +104,13 @@ const Python = () => {
 
         <div className='flex align-middle justify-self-start border-2 border-gray-200 rounded-md p-4 my-4 '>
        <p className='pl-3 py-1 text-gray-300 text-2xl font-bold'><FaRegCircle /> </p>
-       <a href="https://websitedemos.net/online-coding-course-02/lessons/python-basic/" className='px-4  text-xl font-normal text-gray-600 hover:text-blue-400'>Python Basic</a>
+       <Link to="/pythonBasic" className='px-4  text-xl font-normal text-gray-600 hover:text-blue-400'>Python Basic</Link>
         </div>
 
 
         <div className='flex align-middle justify-self-start border-2 border-gray-200 rounded-md p-4 '>
        <p className='pl-3 py-1 text-gray-300 text-2xl font-bold'><FaRegCircle /> </p>
-       <a href="https://websitedemos.net/online-coding-course-02/lessons/python-advanced/" className='px-4  text-xl font-normal text-gray-600  hover:text-blue-400'>Python Advance</a>
+       <Link to="/pythonAdv" className='px-4  text-xl font-normal text-gray-600  hover:text-blue-400'>Python Advance</Link>
         </div>
         
 
